@@ -91,9 +91,52 @@ hr {
 span {
     color: red;
 } 
-
-
-
+.container__lower{
+    display: flex;
+    flex-direction:column;
+    justify-content: center; 
+    width: 100%;
+    height: 50vh;     
+}
+.ready{
+    color:#2D3033;
+    text-align: center;
+    font-size: 28px;
+}
+.spans{
+    color:#2D3033;
+    text-align: center;
+    margin:25px;
+    font-size: 16px;   
+}
+.download{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#E84545;
+    width: 281px;
+    height: 47px;
+    text-align: center;
+    margin-left:820px;
+    padding: 20px;
+}
+.footer__top{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width: 1901px;
+    height: 251px;
+    background-color:#3A3E64;
+}
+.footer__end{
+    width: 1901px;
+    height: 95px;
+    background-color:#313454;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 
 
